@@ -1,7 +1,8 @@
 RemindInAndroid Write To Remember.
-
 ===============
-1.¼Ì³ĞPagerAdapterĞèÒªoverride instantiateItem destroyItem isViewFromObject·½·¨£¬ÔÚinstantiateItemÖĞ£¬±ØĞëµ÷ÓÃcontainer.addview(your view)·½·¨£¬Òª²»È»²»»áÏÔÊ¾¡£ 
+1.ç»§æ‰¿PagerAdapteréœ€è¦override instantiateItem destroyItem isViewFromObjectæ–¹æ³•ï¼Œåœ¨instantiateItemä¸­ï¼Œå¿…é¡»è°ƒç”¨container.addview(your view)æ–¹æ³•ï¼Œè¦ä¸ç„¶ä¸ä¼šæ˜¾ç¤ºã€‚ 
+2.android api level quick look
+![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/api_level_quick_look.png)
 
 
 
