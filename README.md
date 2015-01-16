@@ -5,9 +5,9 @@ RemindInAndroid Write To Remember.
 3.凡事预则立，不预则废，谨记谨记，谨言慎行。  
 4.屏幕密度density与各分辨率drawable对应关系      ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/density.png)    
 5.退出程序的方法(clean activity task)  
- 		Intent intent = new Intent(context, class);
- 		intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | IntentCompat.FLAG_ACTIVITY_CLEAR_TASK);
- 		startActivity(intent);
+ 		Intent intent = new Intent(context, class);  
+ 		intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | IntentCompat.FLAG_ACTIVITY_CLEAR_TASK);  
+ 		startActivity(intent);  
 
 
 
