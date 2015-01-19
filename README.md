@@ -10,15 +10,16 @@ RemindInAndroid Write To Remember.
  		startActivity(intent);  
 6.activity背景设置为透明的方法
 	
-<code><style name="Theme.Transparent" parent="android:Theme">  
-    <item name="android:windowIsTranslucent">true</item>  
-    <item name="android:windowBackground">@android:color/transparent</item>  
-    <item name="android:windowContentOverlay">@null</item>   
-    <item name="android:windowNoTitle">true</item>  
-    <item name="android:windowIsFloating">true</item>  
-    <item name="android:backgroundDimEnabled">false</item>  
+<code>
+  <style name="Theme.Transparent" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item> 
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
   </style>  
-  </code>
+</code>
  
 
 
