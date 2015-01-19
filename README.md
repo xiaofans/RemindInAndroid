@@ -10,7 +10,7 @@ RemindInAndroid Write To Remember.
  		startActivity(intent);  
 6.activity背景设置为透明的方法  
  url:http://stackoverflow.com/questions/2176922/how-to-create-transparent-activity-in-android
-![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/density.png) 
+![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/activity_bg_transparent.png) 
  
 
 
