@@ -21,7 +21,10 @@ RemindInAndroid Write To Remember.
 
 自己考虑了用CountDownTimer来实现，可是不行，刷新有问题，详细问题后来列出来//TODO  
 在网上找到一个可行方法，使用handler发送延迟消息进行刷新，网址是  
-<url>http://stackoverflow.com/questions/20265493/listview-and-items-with-countdown-timer</url>
+<url>http://stackoverflow.com/questions/20265493/listview-and-items-with-countdown-timer</url>  
+
+9.RelativeLayout 子view 居中方法 代码实现  addRule()  
+<code>params.addRule(RelativeLayout.CENTER_HORIZONTAL, RelativeLayout.TRUE);</code>
 
  
 
