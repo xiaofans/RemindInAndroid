@@ -24,7 +24,11 @@ RemindInAndroid Write To Remember.
 <url>http://stackoverflow.com/questions/20265493/listview-and-items-with-countdown-timer</url>  
 
 9.RelativeLayout 子view 居中方法 代码实现  addRule()  
-<code>params.addRule(RelativeLayout.CENTER_HORIZONTAL, RelativeLayout.TRUE);</code>
+<code>params.addRule(RelativeLayout.CENTER_HORIZONTAL, RelativeLayout.TRUE);</code>  
+
+10.千万不要随便勾选as的offline work 选项!  
+![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/as_offline_mod_warning.png)   
+
 
  
 
