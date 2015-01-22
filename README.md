@@ -32,6 +32,18 @@ RemindInAndroid Write To Remember.
 11.get status bar heigt  
 ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/get_status_bar_height.png)   
 
+12.需要思考的  
+ ×service 连接保持
+ ×adapter里多线程 》》 getview 中的一个item 开启线程并刷新该item，不会引起别的item改变(UIL)
+ ×上传 下载 (图片 文件)等
+ ×数据库的同步问题
+ ×View的绘制  
+ 13 scrollable EditText. 可滑动的EditText，系统竟然可以自带srcollbar 好神奇  
+ http://stackoverflow.com/questions/10896839/scroll-inside-an-edittext-which-is-in-a-scrollview  
+ 
+ ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/get_status_bar_height.png) 
+ 
+
 
  
 
