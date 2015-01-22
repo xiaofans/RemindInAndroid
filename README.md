@@ -29,6 +29,9 @@ RemindInAndroid Write To Remember.
 10.千万不要随便勾选as的offline work 选项!  
 ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/as_offline_mod_warning.png)   
 
+11.get status bar heigt  
+![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/get_status_bar_height.png)   
+
 
  
 
