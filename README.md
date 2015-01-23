@@ -43,6 +43,12 @@ RemindInAndroid Write To Remember.
  
  ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/scrollable_edittext.png) 
  
+ 14.水平的listview (HorizontalListView)有两种开源的实现  
+ ×https://github.com/mtparet/HorizontalListView   相对于第二个好用(可能是我的布局问题，item为RelativeLayout的时候并设置layout_alignParentRight的时候，第二个无法滑动，这个则fill screen)  
+ ×https://github.com/MeetMe/Android-HorizontalListView  
+ 
+ 
+ 
 
 
  
