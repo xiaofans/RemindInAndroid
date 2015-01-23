@@ -67,7 +67,24 @@ RemindInAndroid Write To Remember.
             return true;  
         }  
     }  
-```
+```   
+16.GradientDrawable 使用
+ xml
+ ```  
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="#FF7058" />
+    <corners android:radius="7dp" />
+</shape>
+ 
+ ``` 
+ code  
+``` 
+  GradientDrawable gradientDrawable = new GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM,new int[]{Color.parseColor(startColor),Color.parseColor(endColor)});
+``` 
+ 
+   
  
  
  
