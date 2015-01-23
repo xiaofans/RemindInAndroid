@@ -48,7 +48,7 @@ RemindInAndroid Write To Remember.
  ×https://github.com/MeetMe/Android-HorizontalListView  
  
  15.判断app是否在前台(对用户可见)  
- <code>  
+```
  	public boolean isInForeground(){  
         try {  
             ActivityManager am = (ActivityManager)getSystemService(ACTIVITY_SERVICE);  
@@ -67,7 +67,7 @@ RemindInAndroid Write To Remember.
             return true;  
         }  
     }  
- </code>  
+```
  
  
  
