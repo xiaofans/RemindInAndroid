@@ -47,6 +47,28 @@ RemindInAndroid Write To Remember.
  ×https://github.com/mtparet/HorizontalListView   相对于第二个好用(可能是我的布局问题，item为RelativeLayout的时候并设置layout_alignParentRight的时候，第二个无法滑动，这个则fill screen)  
  ×https://github.com/MeetMe/Android-HorizontalListView  
  
+ 15.判断app是否在前台(对用户可见)  
+ <code>  
+ 	public boolean isInForeground(){  
+        try {  
+            ActivityManager am = (ActivityManager)getSystemService(ACTIVITY_SERVICE);  
+            // The first in the list of RunningTasks is always the foreground task.  
+            ActivityManager.RunningTaskInfo foregroundTaskInfo = am.getRunningTasks(1).get(0);  
+            String foregroundTaskPackageName = foregroundTaskInfo .topActivity.getPackageName();  
+            PackageManager pm = getPackageManager();  
+            PackageInfo foregroundAppPackageInfo = pm.getPackageInfo(foregroundTaskPackageName, 0);  
+            String foregroundTaskAppName = foregroundAppPackageInfo.applicationInfo.loadLabel(pm).toString();  
+            if(getResources().getString(R.string.app_name).equals(foregroundTaskAppName)){  
+                return true;  
+            }else{  
+                return false;  
+            }  
+        }catch (Exception e){  
+            return true;  
+        }  
+    }  
+ </code>  
+ 
  
  
 
