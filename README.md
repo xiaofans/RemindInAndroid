@@ -83,6 +83,8 @@ RemindInAndroid Write To Remember.
 ``` 
   GradientDrawable gradientDrawable = new GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM,new int[]{Color.parseColor(startColor),Color.parseColor(endColor)});
 ``` 
+17.moving a imageview follow with finger MARK  
+	http://stackoverflow.com/questions/14814542/moving-imageview-with-touch-event
  
    
  
