@@ -84,7 +84,14 @@ RemindInAndroid Write To Remember.
   GradientDrawable gradientDrawable = new GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM,new int[]{Color.parseColor(startColor),Color.parseColor(endColor)});
 ``` 
 17.moving a imageview follow with finger MARK  
-	http://stackoverflow.com/questions/14814542/moving-imageview-with-touch-event
+	http://stackoverflow.com/questions/14814542/moving-imageview-with-touch-event  
+
+18.TextView setSingleLine(true) 不显示...问题  
+	 xml中加入android:ellipsize="end" 属性   
+	 用代码设置single line省略号不显示，难道是android:ellipsize属性的默认值是end，代码设置系统把这个值给去掉了  
+	  ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/ellipsize_use.jpg)   
+	 
+	 
  
    
  
