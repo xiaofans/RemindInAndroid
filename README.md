@@ -92,10 +92,9 @@ RemindInAndroid Write To Remember.
 	  ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/ellipsize_use.jpg)   
 # learn android  
   - lesson 1. listview adapter的工作原理  
-  listview 实例化item的个数为屏幕最多显示的个数 + 2，分两步，第一次实例化的个数为屏幕最多显示的个数，然后根据滑动再次实例化到最少需要的个数。  
-  
-	  ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_1/lesson_1_01.jpg)   
-	  ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_1/lesson_1_02.jpg)   
+  listview 实例化item的个数为屏幕最多显示的个数 + 2，分两步，第一次实例化的个数为屏幕最多显示的个数，然后根据滑动再次实例化到最少需要的个数.  
+	![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_1/lesson_1_01.jpg)   
+	![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_1/lesson_1_02.jpg)   
 	  ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_1/lesson_1_03.jpg)   
 	  ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_1/lesson_1_04.jpg)   
 	  ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_1/lesson_1_05.jpg)   
