@@ -104,6 +104,14 @@ https://github.com/xiaofans/RemindInAndroid/blob/master/class/EllipsizingTextVie
 	  ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_1/lesson_1_06.png)   
 	  ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_1/lesson_1_07.png)    
 	  ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_1/lesson_1_08.png)   
+	  
+	  	- lesson 2.   
+	  ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_2/lesson_2_01_as_useful_tip.png)
+	   ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_2/lesson_2_02.png)
+	    ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_2/lesson_2_03_main_thread.png)
+	     ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_2/lesson_2_04_fragment_handle_menu_events.png)
+	- lesson 3.      
+	 ![image](https://github.com/xiaofans/RemindInAndroid/blob/master/pics/learn_android/lesson_3/lesson_3_01_intent_flag.png)
 	 
  
    
