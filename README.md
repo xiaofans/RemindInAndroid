@@ -93,6 +93,19 @@ RemindInAndroid Write To Remember.
 19.TextView ellipse useage
 https://github.com/xiaofans/RemindInAndroid/blob/master/class/EllipsizingTextView.java  
 
+20.ListView item add pressed bg  
+ code  
+``` 
+  <?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@color/item_pressed_bg" />
+    <item  android:state_focused="false"
+        android:drawable="@color/item_normal_bg" />
+</selector>
+``` 
+
+
 # learn android  
   - lesson 1. listview adapter的工作原理  
   listview 实例化item的个数为屏幕最多显示的个数 + 2，分两步，第一次实例化的个数为屏幕最多显示的个数，然后根据滑动再次实例化到最少需要的个数.  
