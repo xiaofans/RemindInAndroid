@@ -103,7 +103,30 @@ https://github.com/xiaofans/RemindInAndroid/blob/master/class/EllipsizingTextVie
     <item  android:state_focused="false"
         android:drawable="@color/item_normal_bg" />
 </selector>
+```  
+21.ListView item 倒计时问题解决方案
 ``` 
+	...........getView(){
+				
+		...
+		...
+		...
+		// 把countdowntimer添加到viewholder中，取消该timer，防止一个item绑定多个timer，否则会出现倒计时乱的问题  
+		if(viewHolder.countDownTimer != null){
+				viewHolder.countDownTimer.cancel();
+		}
+		
+		viewHolder.countDownTimer = new CountDownTimer(...){....}
+	}
+	
+	ViewHolder{
+		..
+		..
+		..
+		CountDownTimer countDownTimer;
+	}
+
+```  
 
 
 # learn android  
