@@ -1,0 +1,14 @@
+下载待签名的空包
+下载完成后，请将需认领应用的MD5签名写入空白包中
+如何签名
+
+jarsigner -verbose -keystore [keystorePath] -signedjar [apkOut] [apkIn] [alias]
+jarsigner命令格式：-verbose输出详细信息 -keystore密钥库位置 -signedjar要生成的文件 要签名的文件 密钥库文件
+keystorePath参数代表keyStore的绝对路径，如D:\keystore
+apkOut参数代表签名后的apk路径，如D:\signed.apk
+apkin参数代表在腾讯应用中心下载的未签名apk，默认名称为tap_unsign.apk
+alias参数代表签名用的整数名称（创建keyStore时所填写），如timdong
+
+
+例如
+jasigner -verbose -keystore d:\keystore -signedjar d:\signed.apk d:\tap_unsign_apk 123456
