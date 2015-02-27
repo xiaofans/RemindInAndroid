@@ -132,7 +132,9 @@ https://github.com/xiaofans/RemindInAndroid/blob/master/class/EllipsizingTextVie
 22.view动态设置padding(以前以为需要LayoutParams,现在才发现直接设置就可以)   
 ..View.setPadding(0,0,0,0);  
 
-23.应用包app认领流程 
+23.应用包app认领流程  
+https://github.com/xiaofans/RemindInAndroid/blob/master/the%20others/yingyongbao_claim/%E5%BA%94%E7%94%A8%E5%8C%85%E8%AE%A4%E9%A2%86%E6%B5%81%E7%A8%8B.txt  
+
 
 	 
  
