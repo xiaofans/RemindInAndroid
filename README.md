@@ -133,7 +133,38 @@ https://github.com/xiaofans/RemindInAndroid/blob/master/class/EllipsizingTextVie
 ..View.setPadding(0,0,0,0);  
 
 23.应用包app认领流程  
-https://github.com/xiaofans/RemindInAndroid/blob/master/the%20others/yingyongbao_claim/%E5%BA%94%E7%94%A8%E5%8C%85%E8%AE%A4%E9%A2%86%E6%B5%81%E7%A8%8B.txt  
+https://github.com/xiaofans/RemindInAndroid/blob/master/the%20others/yingyongbao_claim/%E5%BA%94%E7%94%A8%E5%8C%85%E8%AE%A4%E9%A2%86%E6%B5%81%E7%A8%8B.txt   
+
+24.suppor librarys 的作用  (https://developer.android.com/tools/support-library)
+	 -v4 Support Library 
+	 		>App Components
+	    		Fragment  
+	    		NotificationCompat  富通知  
+	    		LocalBroadcastManager  
+	    		
+	    >User Interface    
+	    		ViewPager  
+	    		PagerTitleStrip  
+	    		PagerTabStrip  可滑动的tab  
+	    		DrawerLayout  抽屉式布局  
+	    		SlidingPaneLayout 类似SlidingMenu  
+	    >Content  
+	    		Loader  异步加载数据 包含CursorLoader AsyncTaskLoader 
+	    		FileProvider  分享私有的文件在程序间  
+	    		
+25.Multidex Support Library 一个app打多个dex文件，为了防止在2.2上安装不上报limit methods 65536错误  Gradle only  
+26.v7 support library  主要包含Action Bar 还有material design规范里的一些组件  
+27.v7 cardview library CardView 组件 在Google的设计中较为流行  
+28.v7 gridlayout library gridlayout组件  
+29.v7 mediarouter library 暂时不明是干啥的  
+30.v7 palette library 画板组件 可以根据一个bitmap得到图片的色调值 (感觉是根据material design的风格来的)  
+31.v7 recyclerview library 据说性能比listiew好的一个数据集显示组件  
+32.v8 Support Library 支持RenderScript  
+33.V13 多出FragmentCompat类??  
+34.v17 Leanback Library 主要是为tv设计  
+	 
+	    		
+	    		
 
 
 	 
