@@ -162,6 +162,17 @@ https://github.com/xiaofans/RemindInAndroid/blob/master/the%20others/yingyongbao
 32.v8 Support Library 支持RenderScript  
 33.V13 多出FragmentCompat类??  
 34.v17 Leanback Library 主要是为tv设计  
+35.Material Design设计学习  
+	-什么是Material Design?
+	Material Design 基于触觉现实,灵感来源于对纸张和墨水的研究,元素以印刷为基础进行设计.  用户进行操作的时候，吸引用户注意力并且连续性，反馈清晰，转变一致.
+
+	-环境
+	  3d空间 
+	  光影与阴影
+	-属性
+	1.静态属性  
+ 			-可变的大小，均匀的厚度1dp
+	
 	 
 	    		
 	    		
