@@ -171,7 +171,9 @@ https://github.com/xiaofans/RemindInAndroid/blob/master/the%20others/yingyongbao
 	  光影与阴影
 	-属性
 	1.静态属性  
- 			-可变的大小，均匀的厚度1dp
+ 			-可变的大小，均匀的厚度1dp  
+
+36.ListView快速滑动到顶部的方法 listview.setSelectionAfterHeaderView()  
 	
 	 
 	    		
