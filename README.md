@@ -175,6 +175,7 @@ https://github.com/xiaofans/RemindInAndroid/blob/master/the%20others/yingyongbao
 
 36.ListView快速滑动到顶部的方法 listview.setSelectionAfterHeaderView()  
 37.use ContentProvider with GreenDao https://github.com/greenrobot/greenDAO/blob/master/DaoGenerator/src-template/content-provider.ftl#L41  
+38.TextView里面支持电话号码 网站识别 android:autoLink="phone|web" 改变连接字体的颜色 android:textColorLink="@color/white" 
 	
 	 
 	    		
