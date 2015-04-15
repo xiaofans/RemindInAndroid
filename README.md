@@ -175,17 +175,17 @@ https://github.com/xiaofans/RemindInAndroid/blob/master/the%20others/yingyongbao
 
 36.ListView快速滑动到顶部的方法 listview.setSelectionAfterHeaderView()  
 37.use ContentProvider with GreenDao https://github.com/greenrobot/greenDAO/blob/master/DaoGenerator/src-template/content-provider.ftl#L41  
-38.TextView里面支持电话号码 网站识别 android:autoLink="phone|web" 改变连接字体的颜色 android:textColorLink="@color/white" 
-39.自定义控件的规则:符合android标准;提供自定义xml属性;可发生无阻塞事件;多平台兼容.
+38.TextView里面支持电话号码 网站识别 android:autoLink="phone|web" 改变连接字体的颜色 android:textColorLink="@color/white"   
+39.自定义控件的规则:符合android标准;提供自定义xml属性;可发生无阻塞事件;多平台兼容.  
+40.android下 utils or support v4 utils中新添的Sparse****系列可用来代替HashMap并且性能更加高效    
+-SparseArray   SparseArrays map integers to Objects.  
+-SparseBooleanArray  SparseBooleanArrays map integers to booleans.  
+-SparseIntArray   SparseIntArrays map integers to integers.  
+-SparseLongArray  SparseLongArrays map integers to longs.  
+
 
 	
-	 
-	    		
-	    		
-
-
-	 
- 
+	
    
  
  
