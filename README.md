@@ -181,7 +181,8 @@ https://github.com/xiaofans/RemindInAndroid/blob/master/the%20others/yingyongbao
 -SparseArray   SparseArrays map integers to Objects.  
 -SparseBooleanArray  SparseBooleanArrays map integers to booleans.  
 -SparseIntArray   SparseIntArrays map integers to integers.  
--SparseLongArray  SparseLongArrays map integers to longs.  
+-SparseLongArray  SparseLongArrays map integers to longs.   
+41.编程kiss原则 https://people.apache.org/~fhanik/kiss.html  
 
 
 	
