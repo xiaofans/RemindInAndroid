@@ -183,6 +183,8 @@ https://github.com/xiaofans/RemindInAndroid/blob/master/the%20others/yingyongbao
 -SparseIntArray   SparseIntArrays map integers to integers.  
 -SparseLongArray  SparseLongArrays map integers to longs.   
 41.编程kiss原则 https://people.apache.org/~fhanik/kiss.html  
+42.类与类之间关系 复习 http://www.uml.org.cn/oobject/201104212.asp   
+43.ooa 面向对象分析 ood 面向对象设计 oop 面向对象编程   
 
 
 	
